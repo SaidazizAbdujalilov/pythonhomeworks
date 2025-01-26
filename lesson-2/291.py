@@ -1,5 +1,6 @@
 A = input("Write something: ")
-B = A.strip()
-C = ''.join(char for char in B if char in " ")
-D = len(C)+1
-print(f"there are {D} words in your sentence")
+B = ''.join(char for char in A if char in "012345789")
+if len(B)>0: 
+    print("Your input has digit")
+else:
+    print("Your input has no digit")
