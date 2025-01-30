@@ -1,3 +1,4 @@
+#Write a program to ask for two strings and check if they are equal or not.
 A = input("Write something: ")
 B = input("Write something: ")
 if A == B:
