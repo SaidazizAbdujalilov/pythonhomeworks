@@ -1,3 +1,4 @@
+#Write a program that takes two numbers and prints out the result of integer division and theremainder.
 A = int(input("You are dividing:")) 
 print("by")
 B = int(input())

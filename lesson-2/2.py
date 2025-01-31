@@ -1,3 +1,4 @@
+#Write a Python file that asks for three numbers and outputs the largest and smallest.
 print("Write integers:")
 a = int(input("a: "))
 b = int(input("b: "))

@@ -1,3 +1,4 @@
+#Write a program that asks the user for a sentence and prints the number of words in it.
 A = input("Write something: ")
 B = A.strip()
 C = ''.join(char for char in B if char in " ")
